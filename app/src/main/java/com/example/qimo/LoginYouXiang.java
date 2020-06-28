@@ -159,7 +159,7 @@ public class LoginYouXiang extends Activity
 					}
 					catch (Exception e)
 					{
-						Log.i("TAG", "run: 延时失败");//2280057905@qq.com
+						Log.i("TAG", "run: 延时失败");
 					}
 				}
 			}.start();
@@ -208,7 +208,7 @@ public class LoginYouXiang extends Activity
 					}
 					catch (Exception e)
 					{
-						Log.i("TAG", "run: 延时失败");//2280057905@qq.com
+						Log.i("TAG", "run: 延时失败");
 					}
 				}
 			}.start();
