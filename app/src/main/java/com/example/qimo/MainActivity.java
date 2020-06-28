@@ -478,7 +478,7 @@ public class MainActivity extends AppCompatActivity
 				}
 				else
 				{
-					Log.i("TAG", "onActivityResult: 查询用户曾经没有登陆过");//2275442930@qq.com
+					Log.i("TAG", "onActivityResult: 查询用户曾经没有登陆过");
 					//没有在本地登陆过
 					//入库
 					userdata.net_md5 = data.getStringExtra("net_md5");
