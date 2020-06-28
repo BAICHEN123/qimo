@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:id="@+id/menu1_user"
+        android:title="@string/用户"
+        />
+    <item android:id="@+id/menu1_login"
+        android:title="@string/登录2"
+        />
+    <item android:id="@+id/menu1_logout"
+        android:title="@string/注销"
+        />
+</menu>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">qimo</string>
+    <string name="登录">登  录</string>
+    <string name="注册">注  册</string>
+    <string name="昵称">名  称：</string>
+    <string name="邮箱">邮  箱：</string>
+    <string name="密码">密  码：</string>
+    <string name="性别">性  别：</string>
+    <string name="保存">保  存</string>
+    <string name="取消">取  消</string>
+
+    <string name="新闻">新闻</string>
+    <string name="订阅">订阅</string>
+    <string name="图片">图片</string>
+    <string name="其他">其他</string>
+    <string name="注销">注销</string>
+    <string name="登录2">登录</string>
+    <string name="用户">用户</string>
+
+    <string name="首页标题">首页标题</string>
+    <string name="发送验证码">发送验证码</string>
+    <string name="请输入邮箱">请输入邮箱</string>
+    <string name="验证码">验证码：</string>
+    <string name="请输入验证码">请输入验证码</string>
+    <string name="确认密码">确认密码</string>
+    <string name="邮箱验证码">邮箱验证码：</string>
+    <string name="请输入密码">请输入密码</string>
+    <string name="邮箱登录">邮箱登录</string>
+    <string name="编辑">编辑</string>
+    <string name="选择头像图片">选择头像图片</string>
+    <string name="头像图片">头像图片</string>
+    <string name="新闻图片">新闻图片</string>
+    <string name="邮箱不可修改">邮箱不可修改</string>
+    <string name="男">男</string>
+    <string name="女">女</string>
+    <string name="登录界面背景">登录界面背景</string>
+    <string name="用户信息界面背景">用户信息界面背景</string>
+    <string name="修改信息界面背景">修改信息界面背景</string>
+    <string name="邮箱登录背景">邮箱登录背景</string>
+
+</resources>

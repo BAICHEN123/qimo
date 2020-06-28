@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/新闻"
+            android:background="@drawable/kff6a6a_70"
+            android:id="@+id/main_button_news"
+            android:onClick="button_news"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/k33a1c9_70"
+            android:id="@+id/main_button_uget"
+            android:onClick="button_uget"
+            android:text="@string/订阅"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/k03a89a_70"
+            android:id="@+id/main_button_pic"
+            android:onClick="button_pic"
+            android:text="@string/图片"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/k3d59ab_70"
+            android:id="@+id/main_button_other"
+            android:onClick="button_other"
+            android:text="@string/其他"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_line1"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="horizontal" />
+</RelativeLayout>
