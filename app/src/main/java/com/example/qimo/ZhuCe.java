@@ -162,7 +162,7 @@ public class ZhuCe extends Activity
 		if (send_time_key && JaoYan.jy_email(userdata.email))
 		{
 			//拼接url，发送请求
-			new MyHttp().send_Post_String(MyHttp.IP + "email_send_zhuce", "email=" + "2275442930@qq.com", handler1, CHANGE_UI);
+			new MyHttp().send_Post_String(MyHttp.IP + "email_send_zhuce", "email=" + userdata.email, handler1, CHANGE_UI);
 			//延时使能按键
 			new Thread()
 			{
