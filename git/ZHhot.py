@@ -4,7 +4,7 @@ from urllib import parse
 
 headers={
 	'User-Agent':r'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
-	'Cookie':'在这里写知乎的cookies'}
+	'Cookie':在这里写知乎的cookies}
 
 url='https://www.zhihu.com/hot'
 
