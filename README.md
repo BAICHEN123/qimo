@@ -7,9 +7,24 @@
 
 	git文件夹是服务器端的代码
 
-		1.主要是用python写的
+		1.服务器端主要是用python写的，字节加密调用的exe。
 
-		2.exe源码就是同名的cpp。
+		2.exe源码就是同名的cpp（略微区别，可能打印的东西不一样，主要的字节处理时一样的）。
 
-		3.hello.java没啥用//hello.java是模拟手机端测试程序用的(hello.java有的安卓工程里都有)
-
+		3.hello.java没啥用		//hello.java是模拟手机端测试程序用的(hello.java有的安卓工程里都有)
+		
+	数据库是在虚拟机里建的，只有一个表
+	'''
+		Create table myuserdata(
+			id int unsigned AUTO_INCREMENT PRIMARY KEY,
+			email nvarchar(100) not null unique KEY,
+			name Nvarchar(100) ,
+			sex TINYINT DEFAULT 2 ,
+			password Char(32) not null,
+			loginNewtime DOUBLE Unsigned not null,
+			userHeadmd5 Char(32),
+			userHeadend char(5) DEFAULT '.head',
+			life TINYINT unsigned,
+				)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+		'''
+	
