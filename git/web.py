@@ -73,7 +73,7 @@ class RequestHandler(BaseHTTPRequestHandler):
 	SQL_UPDATE_LOGIN_YX='UPDATE myuserdata SET loginnewtime=%s WHERE email=%s '
 	#更新用户信息
 	SQL_UPDATE_USERDATA='UPDATE myuserdata SET name=%s,sex=%s,userheadmd5=%s,userheadend=%s where email=%s'
-	#{'name': '未闻君名', 'email': '2275442930@qq.com', 'sex': '2', 'user_head_md5': 'dcda1eb07de0a72521140853f28b1488', 'user_head_end': 'head'}
+	#{'name': '未闻君名', 'email': '111111111@qq.com', 'sex': '2', 'user_head_md5': 'dcda1eb07de0a72521140853f28b1488', 'user_head_end': 'head'}
 	sql1=mysql.connector.connect(host="192.168.74.128",user="qimo1",passwd="123456",database="qimo",auth_plugin="mysql_native_password")
 	
 
@@ -409,7 +409,7 @@ class RequestHandler(BaseHTTPRequestHandler):
 				dict_post[list_dict[0]] = list_dict[1]
 			try:
 				print(dict_post)
-				#{'name': '未闻君名', 'email': '2275442930@qq.com', 'sex': '2', 'user_head_md5': 'dcda1eb07de0a72521140853f28b1488', 'user_head_end': 'head'}
+				#{'name': '未闻君名', 'email': '111111111@qq.com', 'sex': '2', 'user_head_md5': 'dcda1eb07de0a72521140853f28b1488', 'user_head_end': 'head'}
 				sql_send=self.sql1.cursor()
 				sql_send.execute(self.SQL_UPDATE_USERDATA,(dict_post["name"],int(dict_post["sex"]),dict_post["user_head_md5"],dict_post["user_head_end"],dict_post["email"],))
 				self.sql1.commit()
