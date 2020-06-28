@@ -6,14 +6,14 @@ headers={
 
 
 data={
-	"email":"2275442930@qq.com",
+	"email":"**********@qq.com",
 	"password1":"passworddata",
 	"password2":"passworddata"
 	}
 def my_post():
 	global headers,data
 	x=requests.session()
-	req=x.get("http://10.120.52.165:8080/email=2275442930@qq.com",headers=headers)
+	req=x.get("http://10.120.52.165:8080/email=**********@qq.com",headers=headers)
 	print("get------------------------------")
 	print(req.content)
 	req=x.post("http://10.120.52.165:8080/email",headers=headers,data=data)
